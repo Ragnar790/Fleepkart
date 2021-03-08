@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FleepCart</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/8b800e6312.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- NAVBAR  -->
+    <div class="navbar">
+      <div class="navbar-center">
+        <span class="nav-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+        <img src="images/logo.svg" alt="" />
+        <div class="cart-btn">
+          <span class="nav-icon">
+            <i class="fas fa-shopping-cart"></i>
+          </span>
+          <span class="cart-items">0</span>
+        </div>
+      </div>
+    </div>
+    <!-- END OF NAVBAR  -->
+
+    <!-- HERO -->
+    <div class="hero">
+      <div class="banner">
+        <h1 class="banner-title">Get your trolley</h1>
+        <button class="banner-btn">Shop now</button>
+      </div>
+    </div>
+    <!-- END OF HERO  -->
+
+    <!-- PRODUCTS -->
+    <section class="products">
+      <div class="section-title">
+        <h2>Our Products</h2>
+      </div>
+      <div class="products-center">
+        <!-- SINGLE PRODUCT  -->
+        <!-- <article class="product">
+          <div class="img-container">
+            <img src="images/product-1.jpeg" alt="" class="product-img" />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              Add to cart
+            </button>
+          </div>
+          <h3>Some random bed</h3>
+          <h4>$99</h4>
+        </article> -->
+        <!--END OF SINGLE PRODUCT  -->
+      </div>
+    </section>
+    <!--  END OF PRODUCTS -->
+
+    <!-- CART  -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>Your cart</h2>
+        <div class="cart-content">
+          <!-- CART ITEM  -->
+          <!-- <div class="cart-item">
+            <img src="images/product-1.jpeg" alt="" />
+            <div>
+              <h4>Random bed</h4>
+              <h5>$99</h5>
+              <span class="remove-item">Remove</span>
+            </div>
+            <div>
+              <i class="fas fa-chevron-up"></i>
+              <p class="item-amount">4</p>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div> -->
+          <!-- END OF CART ITEM  -->
+        </div>
+        <div class="cart-footer">
+          <h3>Your total: $<span class="cart-total">0</span></h3>
+          <button class="clear-cart banner-btn">Clear cart</button>
+        </div>
+      </div>
+    </div>
+    <!--END OF CART  -->
+
+    <!-- SCRIPT -->
+    <script src="app.js"></script>
+  </body>
+</html>
